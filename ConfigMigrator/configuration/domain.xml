@@ -1,0 +1,19 @@
+<object name = "domain">
+    <attribute name="maxtype"/>
+    <attribute name="length"/>
+    <attribute name="internal"/>
+    <attribute name="description"/>
+    <attribute name="scale"/>
+    <attribute name="domainid"/>
+    <attribute name="domaintype"/>
+    <attribute name="scale"/>
+    <attribute name="internal_description"/>
+    <attribute name="alndomain_collectionref" rule="remove"/>
+    <attribute name="maxdomvalcond_collectionref" rule="remove"/>
+    <attribute name="domaintype_description" rule="remove"/>
+    <attribute name="_rowstamp" rule="remove"/>
+    <attribute name="maxdomainid" rule="remove"/>
+    <attribute name="href" rule="remove"/>
+    <attribute name="alndomain" rule="childobj"/>
+</object>
+    
