@@ -8,7 +8,7 @@ trigger:
 - task: PythonScript@0
   inputs:
     scriptSource: 'filePath'
-    scriptPath: 'ConfigMigrator/Controller.py'
+    scriptPath: '$(Build.SourcesDirectory)/ConfigMigrator/Controller.py'
 
 pool:
   vmImage: ubuntu-latest
