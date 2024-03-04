@@ -29,7 +29,7 @@ for input1 in inputData:
     out = processInp.processinp(data,input1[1])
     #print (json.dumps(out))
     print("Data fetched for "+input1[1]+" with where clause: "+input1[2])
-    input("Hit any key to continue with the load...")
+    #input("Hit any key to continue with the load...")
     #print(json.dumps(out[0]))
     for ot in out:
           putConfig = pc.PutConfig(ot, readExcel,input1[1],input1[0])
@@ -51,7 +51,6 @@ for input1 in inputData:
         readExcel.updateCell("F"+str(rownum), errormsg)
         readExcel.updateCell("G"+str(rownum), payload)
     print("Data load completed for "+input1[1]+" where clause: "+input1[2])
-    print("Check input excel to see the status")
-            
     rownum = rownum + 1
+print("Check input excel to see the status")
           
